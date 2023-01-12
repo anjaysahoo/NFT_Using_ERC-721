@@ -1,0 +1,28 @@
+{
+  "name": "nft_using_erc-721",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx hardhat run scripts/deploy.js --network goerli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjaysahoo/NFT_Using_ERC-721.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjaysahoo/NFT_Using_ERC-721/issues"
+  },
+  "homepage": "https://github.com/anjaysahoo/NFT_Using_ERC-721#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0"
+  }
+}
