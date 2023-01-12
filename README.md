@@ -5,7 +5,7 @@ https://learnweb3.io/courses/9a3fafe4-b5eb-4329-bdef-97b2aa6aacc1/lessons/017e65
 
 
 ## Webstorm configuration for deploying
-1. Add below script in package
+1. Add below script in package.json
 2. ```angular2html
     "scripts": {
       "deploy": "hardhat run scripts/deploy.js --network goerli"
